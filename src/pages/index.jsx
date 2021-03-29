@@ -65,17 +65,54 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Siriwat Chinpattanavanich.
         </BigTitle>
-        <Subtitle>I'm Software engineer in Thailand. I have serious passion for develop best software.</Subtitle>
+        <Subtitle>
+          Experienced Full Stack Developer with a demonstrated history of working in the Technology company and Well-known Digital Banking. Strong software engineering professional with a Bachelor’s Degree focused in Computer Science.
+        </Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>Portfolio</Title>
         <ProjectsWrapper>
+          <ProjectCard
+            title="AIMC e-Learning"
+            link="https://aimc-staging.swiftlet.co.th/login"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            E-Learning platform for Association of Investment Management Companies.
+          </ProjectCard>
+          <ProjectCard
+            title="ISUZU - Model comparison"
+            link="https://digital-project.imit.co.th/model-comparison/vietnam-lhd"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            ISUZU - Model comparison web platform for compare car model of ISUZU.
+          </ProjectCard>
+          <ProjectCard
+            title="Best Prototype of PossAbility Acceleration 2020 Award"
+            link="https://www.linkedin.com/in/siriwat-chinpattanavanich-96ab95136"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            Joined and become the winner of prototype track with the Insurance Share Buy, Mobile insurance platform.
+          </ProjectCard>
+          <ProjectCard
+            title="Blue CONNECT - OR @KASIKORNBANK PCL."
+            link="https://play.google.com/store/apps/details?id=com.kasikornbank.wallet.blueconnect.and"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            Blue CONNECT (PTT e-Wallet) mobile application for Promotion, Payment, Find shop near by and e-Wallet system of PTT.
+          </ProjectCard>
           <ProjectCard
             title="Terebinth"
             link="https://tereb.in.th/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             Terebinth ERP is a business process management and information system (ERP) on the Cloud.
+          </ProjectCard>
+          <ProjectCard
+            title="Narra"
+            link="javascript:void(0)"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+          >
+           Narra is an Audio Description apps for foreigner person to create understanding language by hearing.
           </ProjectCard>
           <ProjectCard
             title="Pannana"
@@ -93,17 +130,24 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="โตโยต้าแท็กซี่.com"
-            link="https://xn--12cu2aak8d2f1a8hfb9dqg.com/"
+            link="javascript:void(0)"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
            For Sales and marketing. 
           </ProjectCard>
           <ProjectCard
-            title="Narra"
-            link="javascript:void(0)"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            title="Second Class Honors in Bachelor's Degree of Computer science"
+            link="https://www.linkedin.com/in/siriwat-chinpattanavanich-96ab95136"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-           Narra is an Audio Description apps for foreigner person to create understanding language by hearing.
+            Second Class Honors in Bachelor's Degree of Computer science.
+          </ProjectCard>
+          <ProjectCard
+            title="3rd runner-up award of Young Technopreneur 2014 Award"
+            link="https://www.linkedin.com/in/siriwat-chinpattanavanich-96ab95136"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            Joined and become the 3rd runner-up award of Young Technopreneur 2014.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -112,15 +156,15 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Siriwat Chinpattanavanich" />
           <AboutSub>
-            I'm a software engineer.
-            My responsibilities include Web development with Ruby on Rails and lead of development team.
-            I'm using React in web frontend development.
+            SIRIWAT CHINPATTANAVANICH <br/>
+            Software Engineer at KASIKORN Business-Technology Group [KBTG]
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          In my team have seven people.
-          Sometime I'm teching junior developer about coding Ruby and Ruby on Rails framework. 
-          When My team have an issue, I will be supporting.
+          Experienced Full Stack Developer with a demonstrated history of working in the Technology company 
+          and Well-known Digital Banking. Highly skilled in Ruby on Rails, Golang, Node.js, React and Cloud Computing Technology (GCP,AWS), 
+          Had been a winner/participated in many software competitions. Strong software engineering professional with 
+          a Bachelor’s Degree focused in Computer Science. 
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -128,14 +172,13 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:siriwat.chin@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://www.linkedin.com/in/siriwat-chinpattanavanich-96ab95136/">LinkedIn</a> &{'  '}
-            <a href="https://medium.com/@chinsiriwat">Medium</a>
+            <a href="https://www.linkedin.com/in/siriwat-chinpattanavanich-96ab95136/">LinkedIn</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Siriwat Chinpattanavanich.{' '}
+          &copy; 2021 by Siriwat Chinpattanavanich.{' '}
           <a href="https://github.com/joijiprogram">Github Repository</a> &{' '}
-          <a href="https://drive.google.com/file/d/10DmOdyKOGRE0e7zoib2Nzro1b7Akvujg/view?usp=sharing">Resume</a>.
+          <a href="https://medium.com/@chinsiriwat">Medium</a>.
         </Footer>
       </Contact>
     </Parallax>
