@@ -60,7 +60,7 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={5}>
+    <Parallax pages={7}>
       <Hero offset={0}>
         <BigTitle>
           Hello, <br /> I'm Siriwat Chinpattanavanich.
@@ -69,7 +69,7 @@ const Index = () => (
           Experienced Full Stack Developer with a demonstrated history of working in the Technology company and Well-known Digital Banking. Strong software engineering professional with a Bachelor’s Degree focused in Computer Science.
         </Subtitle>
       </Hero>
-      <Projects offset={1}>
+      <Projects offset={2}>
         <Title>Portfolio</Title>
         <ProjectsWrapper>
           <ProjectCard
@@ -151,7 +151,7 @@ const Index = () => (
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
-      <About offset={3}>
+      <About offset={5}>
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Siriwat Chinpattanavanich" />
@@ -167,7 +167,7 @@ const Index = () => (
           a Bachelor’s Degree focused in Computer Science. 
         </AboutDesc>
       </About>
-      <Contact offset={4}>
+      <Contact offset={6}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
